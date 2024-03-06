@@ -1,0 +1,56 @@
+#mode:target{
+    .nav{
+        background-color: #171717;
+    }
+    .nav .moon{
+        display: none;
+    }
+    .nav .sun{
+        display: inline-block;
+    }
+    .nav .sun a{
+        color: #fff;
+    }
+    .nav .logo , .nav .nav-link .active ,.nav-link li:hover a, .home h2,.home p,.watch a,.chef-title p,.content-card,.gallary-title p,.contact-title p,.adress .adrees-content p,.adress .adrees-content a {
+        color: #fff;
+    }
+    .nav .logo::after,.nav .nav-link a::before,.home-btns .book,.details .adress .icon,.form button{
+        background-color: #D78C23;
+    }
+    .home,.gallary{
+        background-color: #252525;
+        margin: 0;
+    }
+    .gallary{
+        padding: 50px 0;
+    }
+    .book a{
+        color: #171717;
+    }
+    .home-btns .watch:hover a ,.chef-title p span,.gallary-title p span,.contact-title p span {
+        color: #D78C23;
+    }
+    .icon-btn::before{
+        background-color: inherit; 
+    }
+    .watch .icon-btn{
+        background-color: #171717;
+    }
+    .home-btns .watch{
+        background-color: inherit;
+    }
+    .chefs,.contact{
+        background-color: #202020;
+        padding: 50px 0;
+        margin: 0;
+    }
+    .chefs-cards .card .img-card::before{
+        background-image: url(../images/wave\ \(1\).svg);
+    }
+    .details .adress{
+        background-color: #0D0D0D;
+    }
+    .form button,.details .adress .icon i{
+        color: #000;
+    }
+    }
